@@ -13,7 +13,7 @@ options(prompt = "[] ",
 
 #-------------------------- LUGAR DE TRABAJO ----------------------------------#
 
-setwd("G:/JC/Coursera/Data Science/Exploratory Data Analysis/Week 1/Project N°1 [10082014]") #
+setwd("G:/JC/Coursera/Data Science/Exploratory Data Analysis/Week 1/Project NÂ°1 [10082014]") #
 getwd()
 dir()
 
@@ -43,7 +43,7 @@ png(filename = "plot2.png",
     height = 480)
 
 plot(House_1$DateTime, 
-     House_1$Global_active_power/500, #Rescale
+     House_1$Global_active_power, 
      type = "l", 
      xlab = "", 
      ylab= "Global Active Power (kilowatts)", 
